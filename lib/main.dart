@@ -23,15 +23,13 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.deepPurple[600],
       ),
       body: Center(
-        child: Text(
-          'Hello Ninjas !!!',
-          style: TextStyle(
-            fontSize: 20,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2,
-            color: Colors.grey[600],
-            fontFamily: 'IndieFlower',
-          ),
+        child: ElevatedButton.icon(
+         onPressed:(){},
+         icon: Icon(
+           Icons.mail,
+           color: Colors.deepPurpleAccent[600],
+         ),
+            label:Text('mail now'),
         ),
       ),
       floatingActionButton: FloatingActionButton(
